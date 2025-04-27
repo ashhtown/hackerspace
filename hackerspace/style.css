@@ -1,0 +1,337 @@
+.DESKTOP {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.CATFOLDER {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.HSCONSOLE {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.RECYBIN {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.DESKTOP .overlap-group-wrapper {
+  background-color: #262626;
+  width: 1600px;
+  height: 675px;
+}
+
+.DESKTOP .overlap-group {
+  position: relative;
+  height: 675px;
+  background-image: url(./img/kittywallpaper.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.DESKTOP .recyclingbin {
+  position: absolute;
+  width: 40px;
+  height: 47px;
+  top: 26px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.DESKTOP .folder {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 26px;
+  left: 89px;
+  object-fit: cover;
+}
+
+.DESKTOP .hackerspaceicon {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 26px;
+  left: 161px;
+  object-fit: cover;
+}
+
+.HSCONSOLE .overlap-group-wrapper {
+  background-color: #262626;
+  width: 1600px;
+  height: 675px;
+}
+
+.HSCONSOLE .overlap-group {
+  position: relative;
+  height: 675px;
+  background-image: url(./img/kittywallpaper.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.HSCONSOLE .recyclingbin {
+  position: absolute;
+  width: 40px;
+  height: 47px;
+  top: 26px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.HSCONSOLE .folder {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 26px;
+  left: 89px;
+  object-fit: cover;
+}
+
+.HSCONSOLE .hackerspaceicon {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 26px;
+  left: 161px;
+  object-fit: cover;
+}
+
+.HSCONSOLE .h-sconsole {
+  position: absolute;
+  width: 1223px;
+  height: 550px;
+  top: 80px;
+  left: 150px;
+  object-fit: contain;
+}
+
+.RECYBIN .overlap-group-wrapper {
+  background-color: #262626;
+  width: 1600px;
+  height: 675px;
+}
+
+.RECYBIN .overlap-group {
+  position: relative;
+  height: 675px;
+  background-image: url(./img/kittywallpaper.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.RECYBIN .recyclingbin {
+  position: absolute;
+  width: 40px;
+  height: 47px;
+  top: 26px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.RECYBIN .folder {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 26px;
+  left: 89px;
+  object-fit: cover;
+}
+
+.RECYBIN .hackerspaceicon {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 26px;
+  left: 161px;
+  object-fit: cover;
+}
+
+.RECYBIN .recy-bin {
+  position: absolute;
+  width: 1223px;
+  height: 550px;
+  top: 80px;
+  left: 150px;
+  object-fit: contain;
+}
+
+.CATFOLDER .overlap-group-wrapper {
+  background-color: #262626;
+  width: 1600px;
+  height: 675px;
+}
+
+.CATFOLDER .overlap-group {
+  position: relative;
+  height: 675px;
+  background-image: url(./img/kittywallpaper.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.CATFOLDER .recyclingbin {
+  position: absolute;
+  width: 40px;
+  height: 47px;
+  top: 26px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.CATFOLDER .folder {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 26px;
+  left: 89px;
+  object-fit: cover;
+}
+
+.CATFOLDER .hackerspaceicon {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 26px;
+  left: 161px;
+  object-fit: cover;
+}
+
+.CATFOLDER .cat-folder {
+  position: absolute;
+  width: 1223px;
+  height: 550px;
+  top: 80px;
+  left: 150px;
+  object-fit: contain;
+}
+
+.PWINPUT {
+  position: absolute;
+  width: 1223px;
+  top: 200px;
+  left: 300px;
+  object-fit: contain;
+}
+
+#FORGOTPW {
+  top: 230px;
+  left: 300px;
+  position: absolute;
+  font-size: 10px;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  text-align: top;
+}
+
+#LOGINSCREEN{
+  top: 113px;
+  left: 300px;
+  position: absolute;
+  font-size: 15px;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  text-align: top;
+}
+
+button{
+  font-family: Lucida Console;
+  border: none;
+  color: black;
+  background-color: White;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.EXITWINDOW {
+  position: absolute;
+  width: 45px;
+  top: 88px;
+  left: 1215px;
+  object-fit: contain;
+}
+
+button2{
+  font-family: Lucida Console;
+  border: 1px solid white;
+  color: white;
+  background-color: RED;
+  padding: 4.5px 16.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button1{
+  font-family: Lucida Console;
+  color: white;
+  background-color: RED;
+  padding: 5px 17.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#BOUNTIES {
+  top: 160px;
+  left: 300px;
+  position: absolute;
+  font-size: 15px;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  text-align: top;
+}
+
+#RULES {
+  top: 150px;
+  left: 300px;
+  position: absolute;
+  font-size: 15px;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  text-align: top;
+}
+
+summary {
+  padding: 0px 6px;
+}
+
+#bountysummary {
+  padding: 3px 20px;
+}
+
+details {
+  font-size: 13px;
+}
+
+#bountyP {
+  padding: 0px 30px;
+  font-size: 12px;
+}
+
+#ruleslist {
+  font-size: 12px;
+}
