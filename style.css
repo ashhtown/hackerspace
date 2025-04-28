@@ -179,6 +179,15 @@
   object-fit: contain;
 }
 
+.RECYBIN .bounty-pdf {
+  position: absolute;
+  width: 1223px;
+  height: 550px;
+  top: 80px;
+  left: 150px;
+  object-fit: contain;
+}
+
 .CATFOLDER .overlap-group-wrapper {
   background-color: #262626;
   width: 1600px;
@@ -278,6 +287,18 @@ button{
   object-fit: contain;
 }
 
+button1{
+  font-family: Lucida Console;
+  color: white;
+  background-color: RED;
+  padding: 5px 17.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
 button2{
   font-family: Lucida Console;
   border: 1px solid white;
@@ -291,11 +312,11 @@ button2{
   cursor: pointer;
 }
 
-button1{
+button4{
   font-family: Lucida Console;
   color: white;
   background-color: RED;
-  padding: 5px 17.5px;
+  padding: 5px 15.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -316,11 +337,32 @@ button3{
   cursor: pointer;
 }
 
+button5{
+  font-family: Lucida Console;
+  color: white;
+  opacity: 0;
+  background-color: BLACK;
+  padding: 45px 410px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
 .BOUNTYPDF {
   position: absolute;
   width: 45px;
   top: 140px;
   left: 470px;
+  object-fit: contain;
+}
+
+.OTHERFILES {
+  position: absolute;
+  width: 45px;
+  top: 140px;
+  left: 310px;
   object-fit: contain;
 }
 
