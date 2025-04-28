@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Lucida-Console;
+  src: url(lucon.ttf);
+}
+
 .DESKTOP {
   background-color: #262626;
   display: flex;
@@ -251,7 +256,7 @@
   left: 300px;
   position: absolute;
   font-size: 10px;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   text-align: top;
 }
@@ -261,13 +266,13 @@
   left: 300px;
   position: absolute;
   font-size: 15px;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   text-align: top;
 }
 
 button{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   border: none;
   color: black;
   background-color: White;
@@ -288,7 +293,7 @@ button{
 }
 
 button1{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: white;
   background-color: RED;
   padding: 5px 17.5px;
@@ -300,7 +305,7 @@ button1{
 }
 
 button2{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   border: 1px solid white;
   color: white;
   background-color: RED;
@@ -313,7 +318,7 @@ button2{
 }
 
 button4{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: white;
   background-color: RED;
   padding: 5px 18.5px;
@@ -325,7 +330,7 @@ button4{
 }
 
 button3{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: white;
   opacity: 0;
   background-color: BLACK;
@@ -338,7 +343,7 @@ button3{
 }
 
 button5{
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: white;
   opacity: 0;
   background-color: BLACK;
@@ -371,7 +376,7 @@ button5{
   left: 300px;
   position: absolute;
   font-size: 15px;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   text-align: top;
 }
@@ -381,7 +386,7 @@ button5{
   left: 300px;
   position: absolute;
   font-size: 15px;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   text-align: top;
 }
@@ -409,28 +414,28 @@ details {
 
 #malwareP {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   font-size: 20px;
 }
 
 #GAMEOVER_P {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   font-size: 50px;
 }
 
 #GAMEWON_ATACOST {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   font-size: 40px;
 }
 
 #timer_div {
   text-align: center;
-  font-family: Lucida Console;
+  font-family: Lucida-Console;
   color: #FFFFFF;
   font-size: 20px;
 }
