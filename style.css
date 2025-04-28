@@ -30,6 +30,14 @@
   width: 100%;
 }
 
+.MALWARE {
+  background: Black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
 .DESKTOP .overlap-group-wrapper {
   background-color: #262626;
   width: 1600px;
@@ -334,4 +342,18 @@ details {
 
 #ruleslist {
   font-size: 12px;
+}
+
+#malwareP {
+  text-align: center;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#timer_div {
+  text-align: center;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  font-size: 20px;
 }
