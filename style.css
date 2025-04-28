@@ -351,6 +351,13 @@ details {
   font-size: 20px;
 }
 
+#GAMEOVER_P {
+  text-align: center;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
 #timer_div {
   text-align: center;
   font-family: Lucida Console;
