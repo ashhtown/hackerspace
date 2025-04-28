@@ -316,7 +316,7 @@ button4{
   font-family: Lucida Console;
   color: white;
   background-color: RED;
-  padding: 5px 15.5px;
+  padding: 5px 18.5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -419,6 +419,13 @@ details {
   font-family: Lucida Console;
   color: #FFFFFF;
   font-size: 50px;
+}
+
+#GAMEWON_ATACOST {
+  text-align: center;
+  font-family: Lucida Console;
+  color: #FFFFFF;
+  font-size: 40px;
 }
 
 #timer_div {
