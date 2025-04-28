@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link href="style.css" rel="stylesheet">
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -59,3 +60,17 @@
 
 </body>
 </html>
+
+<script>
+  var seconds_left = 20;
+  var interval = setInterval(function() {
+    document.getElementById('longer_timer').innerHTML = --seconds_left;
+
+    if (seconds_left <= 0)
+    {
+      document.location='gameover.html';
+    }
+  }, 1000);
+</script>
+<br><br><br><br>
+<div id="longer_timer"></div>
