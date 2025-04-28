@@ -303,6 +303,27 @@ button1{
   cursor: pointer;
 }
 
+button3{
+  font-family: Lucida Console;
+  color: white;
+  opacity: 0;
+  background-color: BLACK;
+  padding: 80px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.BOUNTYPDF {
+  position: absolute;
+  width: 45px;
+  top: 140px;
+  left: 470px;
+  object-fit: contain;
+}
+
 #BOUNTIES {
   top: 160px;
   left: 300px;
